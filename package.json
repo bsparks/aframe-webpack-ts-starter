@@ -1,0 +1,43 @@
+{
+    "name": "aframe-webpack-ts-starter",
+    "version": "1.0.0",
+    "description": "simple aframe webpack starter",
+    "main": "index.ts",
+    "dependencies": {
+        "aframe": "^1.3.0"
+    },
+    "devDependencies": {
+        "@types/aframe": "^1.2.0",
+        "@types/jest": "^29.1.1",
+        "@typescript-eslint/eslint-plugin": "^5.39.0",
+        "@typescript-eslint/parser": "^5.39.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "eslint": "^8.24.0",
+        "eslint-webpack-plugin": "^3.2.0",
+        "fork-ts-checker-webpack-plugin": "^7.2.13",
+        "html-webpack-plugin": "^5.5.0",
+        "jest": "^29.1.2",
+        "mini-css-extract-plugin": "^2.6.1",
+        "node-sass": "^7.0.3",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "ts-jest": "^29.0.3",
+        "ts-loader": "^9.4.1",
+        "typescript": "^4.8.4",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "scripts": {
+        "start": "webpack serve --open --config webpack.dev.js",
+        "build": "NODE_ENV=production webpack --config webpack.prod.js",
+        "test": "npx jest"
+    },
+    "keywords": [
+        "aframe"
+    ],
+    "author": "Warspawn",
+    "license": "ISC"
+}
